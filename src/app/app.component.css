@@ -1,0 +1,25 @@
+p {
+  font-family: Lato;
+}
+
+header {
+  height: 10vh;
+}
+
+main {
+  width: 90vw; 
+  height: 80vh;
+  margin: 0 auto;
+}
+
+div {
+  top: 0px;
+  left: 0px;
+  width: 100vw; 
+  height: 100vh;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  display: grid;
+  place-items: center;
+}

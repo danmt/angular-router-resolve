@@ -1,0 +1,17 @@
+<header>
+	<button style="margin:5px" mat-raised-button routerLink="/blue">Blue</button>
+  <button style="margin:5px" mat-raised-button routerLink="/green">Green</button>
+  <button style="margin:5px" mat-raised-button routerLink="/red">Red</button>
+  <button style="margin:5px" mat-button routerLink="/">X</button>
+</header>
+
+<div *ngIf="inNavigation">
+  <mat-progress-spinner
+    color="primary"
+    mode="indeterminate">
+  </mat-progress-spinner>
+</div>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
