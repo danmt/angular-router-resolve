@@ -1,3 +1,3 @@
 # angular-router-resolve
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-router-resolve)
+This repository is intended to work as an example on how to use route resolvers in Angular 8.
